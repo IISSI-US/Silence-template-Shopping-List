@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 import { itemsAPI } from '/js/api/items.js';
 import { messageRenderer } from '/js/renderers/messages.js';

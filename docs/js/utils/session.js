@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Time in seconds during which the session token is valid
 const TOKEN_VALIDITY_TIME = 86400;

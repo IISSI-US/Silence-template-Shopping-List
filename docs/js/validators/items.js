@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Client side validation for the item object.
 const itemValidator = {

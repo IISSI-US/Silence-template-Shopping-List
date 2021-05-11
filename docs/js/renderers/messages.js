@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 import { parseHTML } from '../utils/parseHTML.js';
 

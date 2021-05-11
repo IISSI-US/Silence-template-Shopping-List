@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 import { authAPI } from './api/auth.js';
 import { sessionManager } from './utils/session.js';

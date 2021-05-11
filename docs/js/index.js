@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 import { sessionManager } from './utils/session.js';
 

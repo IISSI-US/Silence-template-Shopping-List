@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 import { BASE_URL } from '../api/common.js';
 import { parseHTML } from '../utils/parseHTML.js';

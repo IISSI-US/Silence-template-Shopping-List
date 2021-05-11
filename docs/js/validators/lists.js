@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Client side validation for the list object.
 const listValidator = {

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 import { listsAPI } from '/js/api/lists.js';
 import { listValidator } from '/js/validators/lists.js';
