@@ -1,6 +1,6 @@
 "use strict";
 
-let include = (htmlFile, selector) => {
+function include(htmlFile, selector) {
     let xhr = new XMLHttpRequest();
     xhr.open("GET", htmlFile, false); // Becomes synchronous
     xhr.addEventListener("load", () => {
