@@ -1,9 +1,7 @@
 "use strict";
 
-import { BASE_URL } from '../api/common.js';
 import { parseHTML } from '../utils/parseHTML.js';
 import { listsAPI } from '../api/lists.js';
-import { usersAPI } from '../api/users.js';
 
 const userRenderer = {
 
@@ -50,7 +48,7 @@ const userRenderer = {
 // Aux function to put links to all list of a user in a table row.
 function findLists(row, userId) {
     let tdList = row.querySelector("td.lists");
-    console.log('the user id is' + userId)
+
     if (userId === null) {
         tdList.textContent = "No lists for this user.";
     } else {
